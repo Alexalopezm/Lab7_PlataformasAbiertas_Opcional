@@ -1,7 +1,7 @@
 # Lab7_PlataformasAbiertas_Opcional
 ## Universidad de Costa Rica
 ### IE 0117 - Programación Bajo Plataformas Abiertas
-#### Laboratorio 7: Script y Procesos en Pyhton (segundo ciclo del 2023)
+#### Laboratorio 7: Script y Procesos en Pyhton (segundo ciclo del 2023) (Opcional)
 
 - Alexa López Marcos, B94353
 
@@ -77,4 +77,19 @@ Supongamos que queremos monitorear el proceso llamado `mi_proceso` durante 60 se
 python monitoreo_consumo.py mi_proceso
 ```
 # Resultados
+### Código `IDprocesos.py`
+Al ejecutar este código en la terminal se muestran los resultados de:
+- Nombre del proceso
+- ID del proceso
+- Parent process ID
+- Usuario propietario
+- Porcentaje de uso de CPU al momento de correr el script
+- Consumo de memoria
+- Estado (status)
+- Path del ejecutable
 
+### Código `Monitoreo.py`
+Al ejecutar este código se tiene como resultado un mensaje en la terminal sobre si el proceso a monitorear se encuentra ejecutandose o si no se esta ejecutando y el código lo vuelve a abrir.
+
+### Código `CPU.py`
+Al ejecutar este código se tiene como resultado una grafica llamada "ConsumoCPU.png" se almacena en la misma carpeta en la que se ejecuta el código.
