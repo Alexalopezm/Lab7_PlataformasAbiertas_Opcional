@@ -23,4 +23,3 @@ if __name__ == "__main__":
     nombre_proceso = sys.argv[1]
     comando_inicio = sys.argv[2]
     monitorear_proceso(nombre_proceso, comando_inicio)
-
